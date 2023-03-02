@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600;700;900&family=Red+Hat+Text:ital,wght@1,700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap');
+
+:root, [data-bs-theme=light] {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13,110,253;
+    --bs-secondary-rgb: 108,117,125;
+    --bs-success-rgb: 25,135,84;
+    --bs-info-rgb: 13,202,240;
+    --bs-warning-rgb: 255,193,7;
+    --bs-danger-rgb: 220,53,69;
+    --bs-light-rgb: 248,249,250;
+    --bs-dark-rgb: 33,37,41;
+    --bs-primary-text: #0a58ca;
+    --bs-secondary-text: #6c757d;
+    --bs-success-text: #146c43;
+    --bs-info-text: #087990;
+    --bs-warning-text: #997404;
+    --bs-danger-text: #b02a37;
+    --bs-light-text: #6c757d;
+    --bs-dark-text: #495057;
+    --bs-primary-bg-subtle: #cfe2ff;
+    --bs-secondary-bg-subtle: #f8f9fa;
+    --bs-success-bg-subtle: #d1e7dd;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* ======================== */
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+body {
+  height: 2000px;
+}
+.navbar .navbar-brand {
+  font-size: 30px;
+  font-weight: 900;
+  background-color: white;
+  color: blue;
+  border-radius: 5px;
+  padding: 15px 15px 15px 10px;
+}
+
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+  color: white;
+}
+.fa-bars {
+  color: #007bff;
+  font-size: 30px;
+}
+
+.head---1{
+    font-size: 20px;
+}
+
+/* ======================== */
+
+
+.navbar{
+    background-color: transparent !important;
+    color: white !important;
+    padding: 0;
+}
+.main{
+    background-image: url(images/pexels-francesco-ungaro-281260.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner{
+    height: 50vh;
+}
+
+.banner-img{
+   width: 100%;
+  background-size: cover;
+  display: flex;
+  margin-top: 1rem;
+  padding-top: 5rem;
+} 
+
+.banner-about-1{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 25px;
+    margin-bottom: 2rem;
+    color: #0d6efd;
+    font-weight: 800;
+}
+
+.banner-title-1{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 40px;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+
+.banner-discription-1{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: grey;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.btn-button-1{
+    margin-left: 28rem;
+    width: 10rem;
+    height: 4rem;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: #d63384;
+    color: white;
+    font-weight: 800;
+}
+
+.banner-about-2{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 25px;
+    margin-bottom: 2rem;
+    color: #0d6efd;
+    font-weight: 800;
+}
+
+.banner-title-2{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 40px;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+
+.banner-discription-2{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: grey;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.banner-about-3{
+    margin-top: 3rem;
+    font-size: 25px;
+    margin-bottom: 2rem;
+    color: #0d6efd;
+    font-weight: 800;
+    text-align: start;
+    margin-right: 20rem;
+
+}
+
+.banner-title-3{
+    font-size: 35px;
+    line-height: 50px;
+    text-align: start;
+    margin-bottom: 2rem;
+    font-weight: 800;
+    margin-top: 3rem;
+}
+
+.banner-discription-3{
+    text-align: start;
+    color: grey;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.banner-about-4{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 25px;
+    margin-bottom: 2rem;
+    color: #0d6efd;
+    font-weight: 800;
+}
+
+.ban-3{
+    margin-left: 2rem;
+    font-size: 16px;
+    font-weight: 800;
+}
+.banner-title-4{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 40px;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+
+.banner-discription-4{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: grey;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.box--1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 25px;
+    width: 5rem;
+    border-radius: 10px;
+    background-color: #ff9c9c;
+    height: 5rem;
+}
+
+.btn{
+    margin-right: 20rem;
+    
+}
+
+
+.box--2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 25px;
+    width: 5rem;
+    border-radius: 10px;
+    background-color: #0e73ee;
+    height: 5rem;
+}
+
+.text-center{
+display: flex;
+    text-align: center!important;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-4.text-center-3 {
+    padding-left: 105px;
+}
+
+.brand>img {
+    width: 109%;
+    padding-left: 1rem;
+}
+
+
+
+
+
+.box--3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 25px;
+    width: 5rem;
+    border-radius: 10px;
+    background-color: #a230ff;
+    height: 5rem;
+}
+s#option:nth-child(1){
+    color: white;
+}
+
+.para-div-offer{
+    font-size: 20px;
+}
+
+.offer-1{
+    margin-top: 2rem;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    font-size: 25px;
+}
+
+.offer2{
+    margin-top: 2rem;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    font-size: 25px;
+    
+}
+
+.offer3{
+    margin-top: 2rem;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    font-size: 37px;
+    font-size: 25px;
+
+}
+.offer4{
+    margin-top: 2rem;
+    color: white;
+    font-weight: 800;
+    margin-bottom:  1rem;
+    font-size: 25px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.offer5, .offer6{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+select#option {
+    outline: none;
+    border: none;
+    padding: 3px;
+    background-color: transparent;
+    display: block;
+    
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: white;
+    
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.para-div-offer{
+    margin-top: 2rem;
+}
+
+h5{
+    margin-left: 2rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+
+
+
+
+p.banner-about {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+h2.banner-title {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.banner-discription{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+.about-con{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.col-group{
+        display: flex;
+        justify-content: center;
+}
+.cards {
+    width: 24%;
+    padding: 28px 11px;
+    margin: 15px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+.icon-card {
+    font-size: 45px;
+}
+
+.brand-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+}
+
+button.btn {
+    font-weight: 600;
+    padding: 16px;
+    background-color: red;
+    color: white;
+    font-size: 22px;
+}
+
+.order{
+    font-size: 25px;
+    font-weight: 500;
+    background-color: transparent;
+    width: 323px;
+    height: 70px;
+    padding-left: 20px;
+    border-radius: 8px;
+    border-color: white;
+    color: white
+}
+
+.para-div-offer{
+    color: white;
+}
+
+p.card-head {
+    font-size: 25px;
+}
+
+.card-head1{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.card-head{
+    font-weight: 800;
+}
+
+.sub-con{
+    margin-top: 5rem;
+}
+
+.banner-about{
+    letter-spacing: 1px;
+}
+
+.banner-discription{
+    margin-top: 1rem;
+}
+
+.ban-con{
+    padding-bottom: 30px;
+}
+
+.first-end-container{
+    text-align: center;
+    margin-top: 7rem;
+
+}
+
+.second-point-container{
+    color: white;
+}
+
+
+.third-point-container{
+    color: white;
+}
+
+
+.fourth-point-container{
+    color: white;
+}
+
+
+.para--1{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.get-h1{
+    font-weight: 800;
+    color: white;
+    margin-top: 2rem;
+}
+
+
+hr{
+    border: 1px solid white !important;
+}
+.input{
+    width: 32rem;
+    height: 4rem;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 6px;    
+}
+
+.btn-div-1{
+    height: 4rem;
+    width: 14rem;
+    margin-left: 3rem;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: #d63384;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+.all-container{
+    display: flex;
+    justify-content: center;
+}
+
+.ent-btn-contain{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.foot-container{
+    background-image: url(images/pexels-francesco-ungaro-281260.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-peson-1{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin-right: 8rem;
+
+}
+
+.ban-1{
+    font-size: 15px;
+    font-weight: 800;
+    color: gray;
+}
+
+.ser-desc{
+    color: grey;
+    font-weight: 400;
+ 
+}
+
+.div2{
+    font-size: 15px;
+    font-weight: 800;
+    color: gray;
+    margin-top: 1rem;
+}
+.test-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 3rem ;
+}
+
+.card-desc{
+    color: grey;
+     font-weight: 400;
+}
+
+.head-112{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.right-left{
+    border-left: 7px solid var(--bs-blue);
+    margin-right: 3rem;
+}
+
+.cripto{
+    font-size: 30px;
+    text-align: start;
+    margin-left: 2rem;
+    font-weight: 800;
+}
+
+.button-peice{
+    margin-top: 4rem;
+    width: 9rem;
+    height: 4rem;
+    font-size: 20px;
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-right: 22rem;
+    font-weight: 800;
+}
+
+.cripto1{
+    font-size: 30px;
+    text-align: start;
+    margin-left: 2rem;
+    font-weight: 800;
+}
+
+.para-cripto2{
+    font-size: 15px;
+    color: grey;
+    font-weight: 800;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+}
+
+.para-cripto{
+    font-size: 15px;
+    text-align: start;
+    color: grey;
+
+    margin-left: 2rem;
+    font-weight: 800;
+    margin-right: 7rem;
+    margin-bottom: 1rem;
+}
+/* accordeian */
+.accordion {
+    background-color: #eeeeee00;
+    color: #000000;
+    border: 1px solid gray;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    transition: 0.4s;
+    margin: 19px 0px;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    font-size: 22px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    color: grey;
+  }
+
+  .h1-head{
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  .h2-head{
+    font-size: 16px;
+    font-weight: 800;
+  }
+
+  .span1{
+    color: #0dcaf0;
+  }
+
